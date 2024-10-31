@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ 
+    <title>Re-birth</title>
+
+
+
+
+</head>
+<body bgcolor="black", text="white">
+    <img src="./js/d.jpeg.jpeg" alt="">
+    <h1 id="myText">ようこそいらっしゃいました。</h1>
+    
+    
+    
+    <button id="changeButton">生まれ変わる</button>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="js/lcd.js"></script>
+
+
+<script>
+'use strict';
+
+const hour =new Date().getHours();
+if(hour > 20 && hour < 22){
+    window.alert('今日はあなたが最期のカスタマーです！')
+}
+
+ else if (hour > 12 && hour < 20) {
+    window.alert('午後は、すこし混んでいるので、チャキチャキお願いしますね')
+}
+
+else if (hour > 6 && hour < 12) {
+    window.alert('午前中は、比較的すいていますのでごゆっくりどうぞ')
+}
+
+else{
+   window.alert('本日の営業は終了しました。今の時間は、練習だけどうぞ') 
+}
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
